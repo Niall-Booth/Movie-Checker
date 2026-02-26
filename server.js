@@ -16,7 +16,7 @@ const db = new pg.Pool({
   user: 'neondb_owner',
   host: 'ep-weathered-bar-abjavzid-pooler.eu-west-2.aws.neon.tech',
   database: 'neondb',
-  password: 'npg_GaBDo8RqXf4y',
+  password: '' //Password for database goes here,
   port: 5432,
   ssl: {
     rejectUnauthorized: false,
@@ -379,3 +379,4 @@ app.listen(port, () => {
     console.log(`Server running on port: ${port}`);
 
 })
+
